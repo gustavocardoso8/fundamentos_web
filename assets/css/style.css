@@ -1,0 +1,84 @@
+/* Estilos página index.html */
+.center {
+    text-align: center;  
+}
+
+.rosa {
+    color: #ff1493;
+}
+
+.roxo {
+    color: #800080;
+}
+
+.fundo {
+    background-color: #2980b9;
+}
+
+
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.containervideo {
+    display: flex;
+    justify-content: center;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.borda {
+    border-radius: 50%;
+}
+
+.tamanho {
+    width: 300px;
+    height: 300px;
+}
+
+.espaco {
+    padding: 30px;
+}
+
+.pd {
+    justify-content: space-around;
+}
+
+.tm-ic {
+    width: 40px;
+    height: 40px;
+}
+
+/*Estilos de ambas as páginas */
+
+#menu li {
+    display: inline;
+    padding: 15px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #f50a0b;
+    font-size: 20px;
+}
+
+#menu a:hover {
+    color: #4b0082;
+}
+
+
+
+
+
+/* Estilos página contato.html */
+
+.mg-lt {
+    margin-left: 50px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="fundo">
+    <ul id="menu">
+        <li>
+            <a href="index.html"> Home </a>
+        </li>
+        <li>
+            <a href="contato.html"> Contato </a>
+        </li>
+    </ul>
+
+    <h1 class="center rosa">Entre em contato comigo</h1>
+
+        <div class="container">
+            <div>
+                <form>
+                    <label class="rosa" for="nome">Nome: </label> <br />
+                    <input type="text" id="nome" onkeyup="validaNome()">
+                    <div id="textoNome"></div>
+                    <br />
+                    <label class="rosa" for="email">E-mail: </label> <br />
+                    <input type="email" id="email" onkeyup="validaEmail()">
+                    <div id="textoEmail"></div>
+                    <br />
+                    <label class="rosa" for="assunto">Assunto: </label> <br />
+                    <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+                    <div id="textoAssunto"></div>
+                    <br />
+                    <br />
+                    <button onclick="enviar()">Enviar</button>
+                </form>        
+            </div>
+            <div class="mg-lt">
+
+                <p class="rosa" >Av. Paulista, 1578</p>
+                <p class="rosa" >São Paulo - SP</p>
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1958340837755!2d-46.65807058542221!3d-23.561409067478262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59ceb1eb771f%3A0xe904f6a669744da1!2sMuseu%20de%20Arte%20de%20S%C3%A3o%20Paulo%20Assis%20Chateaubriand!5e0!3m2!1spt-BR!2sbr!4v1644471305291!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoom()" onmouseout="mapaNormal()"  id="mapa"></iframe>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container1 pd">
+                <a href="https://www.instagram.com/rita_von_hunty/" target="_blank">
+                    <img class="tm-ic" src="assets/img/instagram.png" alt="Instagram">
+                </a>
+        
+                <a href="https://www.youtube.com/c/TemperoDrag" target="_blank">
+                    <img class="tm-ic" src="assets/img/youtube.png" alt="YouTube">
+                </a>
+                
+                
+            </div>
+            <p class="center">
+                Todos os direitos reservados: Rita Von Hunty &copy;
+            </p>
+            
+        </footer>
+
+
+    <script src="assets/scripts/script.js"></script>
+
+
+</body>
+</html>
